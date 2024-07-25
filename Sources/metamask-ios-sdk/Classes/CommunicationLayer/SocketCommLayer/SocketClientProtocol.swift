@@ -3,6 +3,7 @@
 //
 
 import SocketIO
+import Foundation
 
 protocol SocketProtocol {
     var status: SocketIOStatus { get }
